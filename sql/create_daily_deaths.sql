@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS daily_deaths;
 
 CREATE TABLE daily_deaths
 (
-	the_date DATE NOT NULL,
+    the_date DATE NOT NULL,
     num_deaths INT(5) NOT NULL,
     actual_year SMALLINT(4),
     actual_month TINYINT(2),

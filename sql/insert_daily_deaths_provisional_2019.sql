@@ -1,9 +1,9 @@
 /*
-	Daily death occurrences, England and Wales (provisional): 2019-01-01 to 2019-07-31
-	Source Office for National Statistics (ONS)
+    Daily death occurrences, England and Wales (provisional): 2019-01-01 to 2019-07-31
+    Source Office for National Statistics (ONS)
 
-	Downloaded spreadsheet associated with Excess winter mortality in England and Wales (2018-2019) - referencetable.xls
-	Used the worksheets "3a" and "3b"; daily deaths in England and Wales.
+    Downloaded spreadsheet associated with Excess winter mortality in England and Wales (2018-2019) - referencetable.xls
+    Used the worksheets "3a" and "3b"; daily deaths in England and Wales.
 */
 
 INSERT INTO daily_deaths (the_date, num_deaths)

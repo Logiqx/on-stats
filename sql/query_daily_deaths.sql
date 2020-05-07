@@ -14,9 +14,9 @@ SELECT report_years, report_quadrimester, MIN(the_date) AS min_date, MAX(the_dat
 FROM daily_deaths
 GROUP BY report_years, report_quadrimester
 HAVING NOT (
-	report_quadrimester = 1 AND num_days = 122
-	OR report_quadrimester = 2 AND num_days IN (121, 122)
-	OR report_quadrimester = 3 AND num_days = 122
+    report_quadrimester = 1 AND num_days = 122
+    OR report_quadrimester = 2 AND num_days IN (121, 122)
+    OR report_quadrimester = 3 AND num_days = 122
 )
 ORDER BY report_years, report_quadrimester;
 

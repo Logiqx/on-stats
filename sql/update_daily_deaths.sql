@@ -1,11 +1,11 @@
 /*
-	The following fields are created for the calculation of excess winter deaths (December to March):
-	- report_years (yyyy-yyyy)
-	- report_month (1-4 = Aug-Nov, 5-8 = Dec-Mar, 9-12 = Apr-Jul)
-	- report_quadrimester (1 = Aug-Nov, 2 = Dec-Mar, 3 = Apr-Jul)
+    The following fields are created for the calculation of excess winter deaths (December to March):
+    - report_years (yyyy-yyyy)
+    - report_month (1-4 = Aug-Nov, 5-8 = Dec-Mar, 9-12 = Apr-Jul)
+    - report_quadrimester (1 = Aug-Nov, 2 = Dec-Mar, 3 = Apr-Jul)
 
-	The following fields are used for weekly stats that align with ONS weekly deaths:
-	- ons_week (yyyyww)
+    The following fields are used for weekly stats that align with ONS weekly deaths:
+    - ons_week (yyyyww)
 */
 
 UPDATE daily_deaths

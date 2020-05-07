@@ -1,14 +1,14 @@
 /*
-	Daily death occurrences, England and Wales: 1970 to 2018
-	Source Office for National Statistics (ONS)
+    Daily death occurrences, England and Wales: 1970 to 2018
+    Source Office for National Statistics (ONS)
 
-	1970 - 2014
-	Downloaded spreadsheet associated with request 005549 - "Daily death occurrences, 1970-2014.xlsx"
-	Used the worksheet "National daily deaths"; converted year + month + day to yyyy-mm-dd.
+    1970 - 2014
+    Downloaded spreadsheet associated with request 005549 - "Daily death occurrences, 1970-2014.xlsx"
+    Used the worksheet "National daily deaths"; converted year + month + day to yyyy-mm-dd.
 
-	2015 - 2018
-	Downloaded spreadsheet associated with request 11178 - "dailydeathsfinal.xlsx"
-	Used the worksheet "Table"; converted year + month + day to yyyy-mm-dd.
+    2015 - 2018
+    Downloaded spreadsheet associated with request 11178 - "dailydeathsfinal.xlsx"
+    Used the worksheet "Table"; converted year + month + day to yyyy-mm-dd.
 */
 
 INSERT INTO daily_deaths (the_date, num_deaths)
