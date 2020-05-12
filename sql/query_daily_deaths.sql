@@ -3,6 +3,16 @@ SELECT *
 FROM daily_deaths
 ORDER BY the_date;
 
+SELECT ons_week % 100 AS week_no, ROUND(AVG(MONTH(the_date)))
+FROM daily_deaths
+GROUP BY week_no
+ORDER BY the_date;
+
+SELECT MONTH(the_date), AVG(ons_week % 100) AS week_no
+FROM daily_deaths
+GROUP BY MONTH(the_date)
+ORDER BY the_date;
+
 -- Max deaths on a single day for each reporting year
 SELECT report_years, MAX(num_deaths) AS max_daily_deaths
 FROM daily_deaths
