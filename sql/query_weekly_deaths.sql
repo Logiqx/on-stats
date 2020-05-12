@@ -1,7 +1,26 @@
--- List all weeks
+-- List all calendar weeks
 SELECT *
 FROM weekly_deaths
 ORDER BY report_year, report_week;
+
+-- List all flu weeks
+SELECT *
+FROM weekly_deaths
+WHERE flu_season IS NOT NULL
+ORDER BY flu_season, flu_week;
+
+-- List all weeks (tabular form)
+SELECT t.flu_season, GROUP_CONCAT(IFNULL(avg_deaths_5yr, "") ORDER BY t.flu_week) AS avg_deaths_5yr
+FROM
+(
+	SELECT flu_season, seq AS flu_week
+	FROM (SELECT DISTINCT flu_season FROM weekly_deaths) AS d
+	JOIN seq_1_to_52
+	WHERE flu_season IS NOT NULL
+) AS t
+LEFT JOIN weekly_deaths AS w ON t.flu_season = w.flu_season AND t.flu_week = w.flu_week
+GROUP BY flu_season
+ORDER BY flu_season;
 
 -- Max deaths in a single week (reporting year)
 SELECT report_year, MAX(num_deaths) AS max_weekly_deaths
