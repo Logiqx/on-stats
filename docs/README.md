@@ -28,17 +28,17 @@ Yearly [bulletins](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdea
 
 Note: I created the chart below from the exact number of daily deaths based on date of occurrence (rather than the date of registration) and my EWD figures are identical to the figures in the latest ONS [bulletin](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/excesswintermortalityinenglandandwales/2018to2019provisionaland2017to2018final).
 
-![alt text](img/excess_winter_deaths_1970_2019.png" "Excess Winter Deaths 1970-1971 to 2018-2019")
+![alt text](img/excess_winter_deaths_1970_2019.png "Excess Winter Deaths 1970-1971 to 2018-2019")
 
 It is worth mentioning how EWD are calculated in the UK. The chart below shows the number of weekly deaths in England and Wales during the past twenty years. EWD are defined as the number of additional deaths during the 4 "winter" months (1 December to 31 March), over and above the average number of deaths during the 4 months preceding and 4 months following the "winter" months.
 
-![alt text](img/excess_winter_deaths.png" "Weekly Deaths 2000-2019")
+![alt text](img/excess_winter_deaths.png "Weekly Deaths 2000-2019")
 
 It can clearly be seen that the number of deaths between the months of April and November have not varied much over the past 20 years whereas the "winter" deaths show far more variation. This variation during the winter months is due to the EWD.
 
 Peaks in EWD are not unusual and there have been about a dozen of them during the past 50 years. I have highlighted the most significant peaks since 1970 using red circles and all of these peaks are examined within this document, plus last year; 2018-2019.
 
-![alt text](img/excess_winter_deaths_1970_2019_alt.png" "Excess Winter Deaths 1970-1971 to 2018-2019 (highlighted)")
+![alt text](img/excess_winter_deaths_1970_2019_alt.png "Excess Winter Deaths 1970-1971 to 2018-2019 (highlighted)")
 
 
 
@@ -50,7 +50,7 @@ By plotting the weekly deaths registered during 2019-2020 it can be seen that up
 
 From April onwards the number of weekly deaths would be expected to be falling because the winter "flu season" has ended. If you are wondering whether there is a precedent for such a large numbers of excess deaths outside of the flu season you will have that question answered by this report. This report will also compare what we have seen in April 2020 against all of the worst spikes in EWD over the past 50 years.
 
-![alt text](img/excess_deaths.png" "Excess Deaths 2019-2020")
+![alt text](img/excess_deaths.png "Excess Deaths 2019-2020")
 
 
 
@@ -69,7 +69,7 @@ The year 2019-2020 had been consistent with the 5 year average and was typical o
 
 Note: "Swine Flu" was prevalent in the UK during 2009 but there were [few deaths](https://www.nhs.uk/news/cancer/swine-flu-deaths-examined/) despite many people being very sick and hospitalised.
 
-![alt text](img/weekly_deaths_2000_2020.png" "Weekly Deaths 2000-2020")
+![alt text](img/weekly_deaths_2000_2020.png "Weekly Deaths 2000-2020")
 
 
 
@@ -79,7 +79,7 @@ This is where historical comparisons start to become slightly more interesting. 
 
 When comparing the peak in April 2020 to the 1990s you should consider that at no point during the last 50 years has any noticeable spike been observed in weekly deaths for the months of April to November. The 2020 peak for the week ending Friday 17 April (week 16) was also very much an "artificial" peak due to the UK lockdown measures. Without reducing the spread of the virus in March and early April the numbers of weekly deaths would have been several times higher during April 2020. There is little room for doubt because of the principles of the [SIR](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) model and the elaborations that have underpinned epidemiology for nearly a century. You can learn the very basics of epidemiology from a couple of short videos on YouTube; [TED](https://www.youtube.com/watch?v=eHlu6Vi_wxo) and [3Blue1Brown](https://www.youtube.com/watch?v=Kas0tIxDvrg).
 
-![alt text](img/weekly_deaths_1990_2000.png" "Weekly Deaths 1990-2000")
+![alt text](img/weekly_deaths_1990_2000.png "Weekly Deaths 1990-2000")
 
 
 
@@ -91,7 +91,7 @@ I've also highlighted 1985/86 (orange line) when the number of EWD was [49,330](
 
 Since the flu epidemic in 1989/1990 there have been yearly campaigns for widespread flu vaccinations which partly explains why we haven't seen any big spikes or large numbers of flu related deaths since the turn of the millennium.
 
-![alt text](img/weekly_deaths_1980_1990.png" "Weekly Deaths 1980-1990")
+![alt text](img/weekly_deaths_1980_1990.png "Weekly Deaths 1980-1990")
 
 
 
@@ -105,7 +105,7 @@ The winters of 1972/73 (orange line) and 1978/79 (green line) also illustrate ho
 
 As an aside, the [heatwave of 1976](https://en.wikipedia.org/wiki/1976_British_Isles_heat_wave) can also be seen in June/July and was thought to have caused 20% of the "excess deaths" that year. 
 
-![alt text](img/weekly_deaths_1970_1980.png" "Weekly Deaths 1970-1980")
+![alt text](img/weekly_deaths_1970_1980.png "Weekly Deaths 1970-1980")
 
 
 
@@ -117,7 +117,7 @@ The chart below compares the number of weekly deaths (all causes) for 2019-2020 
 
 Note: The peak in the week ending Friday 17 April (week 16) was also very much an "artificial" peak due to the UK lockdown measures. Without reducing the spread of the virus in March and early April the numbers of weekly deaths would have been several times higher during April 2020. There is little room for doubt because of the principles of the [SIR](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) model and the elaborations that have underpinned epidemiology for nearly a century.
 
-![alt text](img/excess_deaths.png" "Excess Deaths 2019-2020")
+![alt text](img/excess_deaths.png "Excess Deaths 2019-2020")
 
 
 
