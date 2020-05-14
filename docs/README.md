@@ -137,3 +137,8 @@ Wednesday 13th May introduced some modest relaxations to the lockdown in the UK 
 
 Stay safe.
 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-86348435-5"></script>
+<script>window.dataLayer = window.dataLayer || []; function gtag() {dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-86348435-5');</script>
