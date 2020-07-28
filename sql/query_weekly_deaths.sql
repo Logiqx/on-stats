@@ -9,8 +9,21 @@ FROM weekly_deaths
 WHERE flu_season IS NOT NULL
 ORDER BY flu_season, flu_week;
 
--- List all weeks (tabular form)
-SELECT t.flu_season, GROUP_CONCAT(IFNULL(avg_deaths_5yr, "") ORDER BY t.flu_week) AS avg_deaths_5yr
+-- List all weeks (tabular form) by calendar year
+SELECT t.calendar_year, GROUP_CONCAT(IFNULL(num_deaths, "") ORDER BY t.calendar_week) AS num_deaths
+FROM
+(
+	SELECT calendar_year, seq AS calendar_week
+	FROM (SELECT DISTINCT calendar_year FROM weekly_deaths) AS d
+	JOIN seq_1_to_52
+	WHERE calendar_year IS NOT NULL
+) AS t
+LEFT JOIN weekly_deaths AS w ON t.calendar_year = w.calendar_year AND t.calendar_week = w.calendar_week
+GROUP BY calendar_year
+ORDER BY calendar_year;
+
+-- List all weeks (tabular form) by flu season
+SELECT t.flu_season, GROUP_CONCAT(IFNULL(avg_deaths_3w, "") ORDER BY t.flu_week) AS avg_deaths_3w
 FROM
 (
 	SELECT flu_season, seq AS flu_week
