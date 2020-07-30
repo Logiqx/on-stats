@@ -18,6 +18,8 @@ Weekly death registrations for Aug 2019 and Jul 2020 were extracted from the wee
 
 TODO - mention delays and bank holidays and the need to clean up the data, factoring in registration delays (median of 5 days) and bank holidays.
 
+On average it usually takes around 5 days for a death to be registered in England and Wales with 74% of all deaths being registered within 7 calendar days, according to the latest [analysis](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/articles/impactofregistrationdelaysonmortalitystatisticsinenglandandwales/2018) by the ONS.
+
 ![alt text](img/occ_vs_reg_2019.png "Comparison of Weekly Deaths - Occurrences vs Registrations 2019-2020")
 
 
