@@ -26,7 +26,7 @@ It is well known that there are always more deaths amongst the elderly during th
 
 It is worth explaining how EWD are defined / calculated in the UK. The chart below shows the number of weekly deaths in England and Wales during the past twenty years. EWD are defined as the number of additional deaths during the 4 "winter" months (1 December to 31 March), over and above the average number of deaths during the 4 months immediately preceding and 4 months immediately following the "winter" months.
 
-![alt text](C:/Projects/WCA/ons-stats/docs/img/excess_winter_deaths.png "Weekly Deaths 2000-2019")
+![alt text](img/excess_winter_deaths.png "Weekly Deaths 2000-2019")
 
 It can clearly be seen that the number of deaths between the months of April and November have not varied much over the past 20 years whereas the "winter" deaths show far more variation. March to June 2020 is clearly exceptional and corresponds to the peak in daily hospital admissions and daily deaths, directly and indirectly attributed to COVID-19.
 
