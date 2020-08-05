@@ -32,6 +32,8 @@ Note: The median time for a death to be registered in England and Wales is 5 day
 
 TLDR; I have created a process that converts the 2019/2020 weekly registration data into something that accurately represents the weekly occurrences. This document describes the process and why it can be regarded as an accurate representation of weekly deaths during 2020.
 
+Note that the total number of deaths is unchanged and the overall peak is slightly lower after the data processing described within this document. The data processing has simply made the weekly death registrations more accurate (reflecting date of occurrence) and has in no ways exaggerated the weekly figures.
+
 ![alt text](img/occ_vs_reg_2019.png "Comparison of Weekly Deaths - Occurrences vs Registrations 2019-2020")
 
 
