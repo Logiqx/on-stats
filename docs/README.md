@@ -204,6 +204,12 @@ Please share if you feel that more people would benefit from this information. W
 
 
 
+### Addendum
+
+I have added a separate [page](per_capita/README.md) which which shows the graphs above but on the basis of population size.
+
+
+
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
