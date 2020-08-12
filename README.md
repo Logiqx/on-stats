@@ -2,6 +2,10 @@
 
 A collection of SQL scripts to analyse public data from the [Office for National Statistics](https://www.ons.gov.uk/) (ONS).
 
+In addition to the details below, I have also written a [document](docs/data_prep/README.md) explaining the ONS datasets, preparation and processing for this project.
+
+
+
 ## Deaths in England and Wales
 
 These scripts can be used to analyse the number of daily deaths from 1970-01-01 to 2018-07-31.
