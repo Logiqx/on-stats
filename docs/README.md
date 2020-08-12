@@ -93,7 +93,7 @@ The next worst winter between 2000 and 2020 was 2014/2015 (orange line) which ha
 
 Minor Notes:
 
-- "Swine Flu" was prevalent in the UK during 2009 but there were [few deaths](https://www.nhs.uk/news/cancer/swine-flu-deaths-examined/) despite many people being very sick and hospitalised. SARS-CoV-2 and COVID-19 are much more serious than the swine flu of 2009 and have a much higher case fatality rate.
+- "Swine Flu" was prevalent in the UK during 2009 but there were [few deaths](https://www.nhs.uk/news/cancer/swine-flu-deaths-examined/) despite many people being very sick and hospitalised. There were only 138 deaths in England according to the the official public health [surveillance study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2791802/) in November 2009. SARS-CoV-2 and COVID-19 are much more serious than the swine flu of 2009 and have a much higher case fatality rate.
 - The winter of 2018/2019 had relatively few EWD but it should be remembered that 2017/2018 was the worst in over 40 years. It is highly conceivable that the large number of EWD during 2017/2018 caused the number of deaths in 2018/2019 to be low, due to the exceptional number of people who had already died during 2017/2018.
 
 
