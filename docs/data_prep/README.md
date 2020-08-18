@@ -100,7 +100,7 @@ The median time for registration is [5 days](https://www.ons.gov.uk/peoplepopula
 
 To account for the delays in weekly registration data, I have used a simple process which takes a fixed percentage of deaths from the current week and a fixed percentage of deaths from the following week. I determined the optimal percentages using a Python script using the historical data from [2017 and 2018](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/adhocs/11178dailydeathsenglandandwales2015to2018occurrences) and also confirmed the effectiveness visually.
 
-The Python script calculates the root-mean-square deviation ([RMSD](https://en.wikipedia.org/wiki/Root-mean-square_deviation)) to determine the optimal percentages for 2017/2018; 48% and 52%.
+The Python script calculates the root-mean-square deviation ([RMSD](https://en.wikipedia.org/wiki/Root-mean-square_deviation)) to determine the optimal percentages for 2017/2018; 47% and 53%.
 
 Applying the 2017/2018 percentages to the weekly COVID-19 registrations results in the graph below. This gives additional confirmation that the 2017 and 2018 parameters also work really well for 2020.
 
@@ -140,7 +140,7 @@ Essentially, some deaths are brought forward where their registration was delaye
 
 #### Step 3
 
-The next step is a simple shift using the parameters that were determined by the Python script using ONS data for the whole of 2017 and 2018. The Python script used root-mean-square deviation ([RMSD](https://en.wikipedia.org/wiki/Root-mean-square_deviation)) as the measure of "best fit" which turned out to be 48% and 52%. An illustration of the suitability of these parameters for 2020 data can be found earlier in this document, showing the deaths where COVID-19 was implicated and the effect of shifting the data.
+The next step is a simple shift using the parameters that were determined by the Python script using ONS data for the whole of 2017 and 2018. The Python script used root-mean-square deviation ([RMSD](https://en.wikipedia.org/wiki/Root-mean-square_deviation)) as the measure of "best fit" which turned out to be 47% and 53%. An illustration of the suitability of these parameters for 2020 data can be found earlier in this document, showing the deaths where COVID-19 was implicated and the effect of shifting the data.
 
 The graph below shows the deaths where COVID-19 was not implicated, shifted left to account for registration delays.
 
