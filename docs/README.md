@@ -158,9 +158,11 @@ Firstly, ICNARC official [reports](https://www.icnarc.org/Our-Audit/Audits/Cmp/R
 
 Secondly, ONS [bulletins and datasets](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/deathsregisteredweeklyinenglandandwalesprovisional/latest) for weekly deaths don't show anything out of the ordinary between October and December 2019. This is clear from graphs in this article and on the ONS website which show the number of weekly excess deaths for 2019/2020.
 
-Thirdly, a study of the SARS-CoV-2 genome from 20,000 people in the UK identified the origins as being mainly from Italy, Spain and France during [February and March](https://virological.org/t/preliminary-analysis-of-sars-cov-2-importation-establishment-of-uk-transmission-lineages/507) but showed no evidence of viral ancestors prior to that time.
+Thirdly, a study of the SARS-CoV-2 genome from 20,000 people in the UK identified the origins as being mainly from Italy, Spain and France during [February and March 2020](https://virological.org/t/preliminary-analysis-of-sars-cov-2-importation-establishment-of-uk-transmission-lineages/507) but showed no evidence of viral ancestors prior to that time.
 
-Based on these three facts, I can only conclude that whatever was doing the rounds in late 2019 / early 2020 was not SARS-CoV-2 and people were not suffering from COVID-19. 
+Lastly, the earliest confirmed case of a SARS-CoV-2 infection in the UK dates is [February 2020](https://www.medrxiv.org/content/10.1101/2020.08.18.20174623v1). The COVID-19 Genomics UK Consortium Study Group used PCR-tested archival specimens collected on admission to a large UK teaching hospital plus available archival specimens submitted for respiratory virus diagnosis, dating back to early January 2020.
+
+Based on the above facts, I can only conclude that whatever was doing the rounds in late 2019 / early 2020 was not SARS-CoV-2 and people were not suffering from COVID-19. 
 
 
 
