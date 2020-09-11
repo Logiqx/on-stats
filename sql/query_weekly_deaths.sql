@@ -61,3 +61,21 @@ FROM weekly_deaths
 WHERE report_week BETWEEN 14 AND 31
 GROUP BY report_year
 ORDER BY report_year;
+
+-- List the worst years for "excess deaths" over a 13 week period
+WITH cte AS
+(
+	SELECT wd.*, SUM(excess_deaths) OVER (ORDER BY start_date ROWS 12 PRECEDING) AS excess_deaths_13w
+	FROM covid.weekly_deaths AS wd
+	WHERE flu_season IS NOT NULL
+	ORDER BY excess_deaths_13w DESC
+)
+SELECT c.flu_season, DATE_ADD(c.end_date, INTERVAL -90 DAY) AS start_date, c.end_date, c.excess_deaths_13w
+FROM
+(
+	SELECT flu_season, MAX(excess_deaths_13w) AS excess_deaths_13w
+	FROM cte AS c
+	GROUP BY flu_season
+) AS t1
+JOIN cte AS c ON c.flu_season = t1.flu_season AND c.excess_deaths_13w = t1.excess_deaths_13w
+ORDER BY excess_deaths_13w DESC;
