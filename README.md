@@ -8,7 +8,7 @@ In addition to the details below, I have also written a [document](docs/data_pre
 
 ## Deaths in England and Wales
 
-These scripts can be used to analyse the number of daily deaths from 1970-01-01 to 2018-07-31.
+These scripts can be used to analyse the number of daily deaths from 1970-01-01 to 2020-07-31.
 
 ### Loading the Daily Deaths
 
@@ -16,7 +16,7 @@ Run scripts in the following order to create the base table:
 
 - create_daily_deaths.sql
 - insert_daily_deaths_1970-2018.sql
-- insert_daily_deaths_provisional_2019.sql
+- insert_daily_deaths_provisional_2019-2020.sql
 - update_daily_deaths.sql
 
 ### Computing Weekly / Monthly / Quadrimester Deaths
