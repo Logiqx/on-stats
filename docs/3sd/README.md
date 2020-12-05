@@ -1,6 +1,8 @@
 ## Explanation of 3SD
 
-### Intro
+Original tweet - https://twitter.com/RealJoelSmalley/status/1334863697588711424/photo/1
+
+### Response
 
 There is a really big issue with this chart which I will try to explain in the following thread.
 
