@@ -13,6 +13,12 @@ FROM daily_deaths
 GROUP BY MONTH(the_date)
 ORDER BY the_date;
 
+-- List all days (tabular form) by calendar year
+SELECT actual_year, GROUP_CONCAT(IFNULL(num_deaths, "") ORDER BY DAYOFYEAR(the_date)) AS num_deaths
+FROM daily_deaths
+GROUP BY actual_year
+ORDER BY actual_year;
+
 -- Max deaths on a single day for each reporting year
 SELECT report_years, MAX(num_deaths) AS max_daily_deaths
 FROM daily_deaths

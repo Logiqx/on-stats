@@ -15,7 +15,7 @@ FROM
 (
 	SELECT calendar_year, seq AS calendar_week
 	FROM (SELECT DISTINCT calendar_year FROM weekly_deaths) AS d
-	JOIN seq_1_to_52
+	JOIN seq_1_to_53
 	WHERE calendar_year IS NOT NULL
 ) AS t
 LEFT JOIN weekly_deaths AS w ON t.calendar_year = w.calendar_year AND t.calendar_week = w.calendar_week
@@ -28,7 +28,7 @@ FROM
 (
 	SELECT flu_season, seq AS flu_week
 	FROM (SELECT DISTINCT flu_season FROM weekly_deaths) AS d
-	JOIN seq_1_to_52
+	JOIN seq_1_to_53
 	WHERE flu_season IS NOT NULL
 ) AS t
 LEFT JOIN weekly_deaths AS w ON t.flu_season = w.flu_season AND t.flu_week = w.flu_week
