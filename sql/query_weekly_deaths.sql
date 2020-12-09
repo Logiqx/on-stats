@@ -35,6 +35,19 @@ LEFT JOIN weekly_deaths AS w ON t.flu_season = w.flu_season AND t.flu_week = w.f
 GROUP BY flu_season
 ORDER BY flu_season;
 
+-- List all weeks (tabular form) by flu season, exact numbers
+SELECT t.flu_season, GROUP_CONCAT(IFNULL(num_deaths, "") ORDER BY t.flu_week) AS num_deaths
+FROM
+(
+	SELECT flu_season, seq AS flu_week
+	FROM (SELECT DISTINCT flu_season FROM weekly_deaths) AS d
+	JOIN seq_1_to_53
+	WHERE flu_season IS NOT NULL
+) AS t
+LEFT JOIN weekly_deaths AS w ON t.flu_season = w.flu_season AND t.flu_week = w.flu_week
+GROUP BY flu_season
+ORDER BY flu_season;
+
 -- Max deaths in a single week (reporting year)
 SELECT report_year, MAX(num_deaths) AS max_weekly_deaths
 FROM weekly_deaths
