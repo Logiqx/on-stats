@@ -42,3 +42,15 @@ FROM daily_deaths
 GROUP BY ons_week
 HAVING num_days != 7
 ORDER BY ons_week;
+
+-- Rollup daily deaths to align with ONS weeks in 2020, starting 3 Jan 2010
+SELECT YEAR(the_date) AS the_year, GROUP_CONCAT(num_deaths ORDER BY the_date) AS num_deaths
+FROM
+(
+	SELECT the_date, SUM(num_deaths) OVER (ORDER BY the_date ROWS BETWEEN 6 PRECEDING AND 0 FOLLOWING) AS num_deaths
+	FROM daily_deaths
+) AS t
+WHERE the_date BETWEEN '2010-01-03' AND '2019-12-31'
+AND DAYOFYEAR(the_date) % 7 = 3
+GROUP BY the_year
+ORDER BY the_year;
