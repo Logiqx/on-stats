@@ -54,3 +54,10 @@ WHERE the_date BETWEEN '2010-01-03' AND '2019-12-31'
 AND DAYOFYEAR(the_date) % 7 = 3
 GROUP BY the_year
 ORDER BY the_year;
+
+-- List all of the January daily deaths
+SELECT YEAR(the_date) AS the_year, GROUP_CONCAT(num_deaths ORDER BY the_date) AS num_deaths
+FROM daily_deaths
+WHERE MONTH(the_date) = 1
+GROUP BY the_year
+ORDER BY the_year;
