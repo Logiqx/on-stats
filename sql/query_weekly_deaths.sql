@@ -92,3 +92,9 @@ FROM
 ) AS t1
 JOIN cte AS c ON c.flu_season = t1.flu_season AND c.excess_deaths_13w = t1.excess_deaths_13w
 ORDER BY excess_deaths_13w DESC;
+
+-- Extract weeks from 2010 onwards for covid-stats
+SELECT end_date AS week_ended, calendar_week AS week_number, num_deaths AS total_deaths
+FROM covid.weekly_deaths
+WHERE end_date >= '2010-01-08'
+ORDER BY end_date;
