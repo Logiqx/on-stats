@@ -1,6 +1,6 @@
 # Daily Deaths in England + Wales
 
-[10 data results containing 'daily' that are related to deaths](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datalist?sortBy=release_date&query=daily&fromDateDay=&fromDateMonth=&fromDateYear=&toDateDay=&toDateMonth=&toDateYear=&size=10)
+[10 data results containing 'daily' that are related to deaths](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datalist?sortBy=release_date&query=daily)
 
 
 
@@ -115,3 +115,12 @@
 
   Not useful to me
 
+
+
+- ### [Deaths by date of occurrence, England and Wales, 1959 to 2016](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/adhocs/009300deathsbydateofoccurrenceenglandandwales1959to2016)
+
+ User requested data | Released on 15 November 2018 | Ref: 009300
+
+  England and Wales (combined) - grid of month + day
+
+  Not useful to me
